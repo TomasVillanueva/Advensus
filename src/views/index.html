@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advensus</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <%- include('partials/nav.html') %>
+
+    <header>
+		<div class="container">
+			<div class="row contenedor_logo_menu">
+				
+			</div>
+
+			<div class="row textos">
+				<div class="col-md-12">
+					<h2 class="primera_linea">Compania de tecnologia especializada en venta de seguridad de la informacion, aplicaciones de facturacion, control de inventario, servidores, etc.</h2>
+				
+					<div class="contenedor-btns">
+						
+						<a href="/contact">Contactar</a>
+					</div>
+				</div>
+			</div>
+        </div>
+        <br>
+	</header>
+
+	<section class="main">
+		<section class="caracteristicas">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="titulo" id="servicios">Servicios</h3>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-4 caracteristica">
+						<img src="img/icono1.png" alt="" class="icono">
+						<h4 class="primera_linea">Administracion de servidores</h4>
+						<p class="parrafo">Dolor sit amet, consectetur adipiscing elit. In dignissim odio ut sagittis elementum.</p>
+					</div>
+					<div class="col-sm-4 caracteristica">
+						<img src="img/icono2.png" alt="" class="icono">
+						<h4 class="primera_linea">aplicaciones de facturacion</h4>
+						<p class="parrafo">Curabitur nisi enim, placerat ac convallis id, posuere vehicula ligula.</p>
+					</div>
+					<div class="col-sm-4 caracteristica">
+						<img src="img/icono3.png" alt="" class="icono">
+						<h4 class="primera_linea">Base de datos</h4>
+						<p class="parrafo">Nulla diam mi, pharetra eget mattis sed, mollis non ligula.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		
+
+		<section class="precios">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="titulo">Precios</h3>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="precio col-sm-4">
+						<div class="plan verde">
+							<p class="nombre">Básico</p>
+							<p class="precio">$9</p>
+							<ul class="caracteristicas">
+								<li>1  Cuenta </li>
+								<li>10 GB de espacio</li>
+								<li>Dominio Personal</li>
+							</ul>
+							<a href="/contact" class="btn">Contratar Ahora</a>
+						</div>
+					</div>
+
+					<div class="precio col-sm-4">
+						<div class="plan active">
+							<p class="nombre">Standard</p>
+							<p class="precio">$19</p>
+							<ul class="caracteristicas">
+								<li>5  Cuenta </li>
+								<li>50 GB de espacio</li>
+								<li>Dominio Personal</li>
+							</ul>
+							<a href="/contact" class="btn">Contratar Ahora</a>
+						</div>
+					</div>
+
+					<div class="precio col-sm-4">
+						<div class="plan naranja">
+							<p class="nombre">Premium</p>
+							<p class="precio">$99</p>
+							<ul class="caracteristicas">
+								<li>Cuentas Ilimitadas</li>
+								<li>500 GB de espacio</li>
+								<li>Dominios Ilimitados</li>
+							</ul>
+							<a href="/contact" class="btn">Contratar Ahora</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="reviews">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="titulo">Lo que nuestros clientes dicen:</h3>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12 cliente">
+						<div class="foto">
+							<img src="img/foto1.jpg" alt="">
+						</div>
+						<div class="review">
+							<p class="texto">“Excelente servicios, los mejores en el area de tecnologia”</p>
+							<p class="nombre">- Alex Ramirez</p>
+						</div>
+					</div>
+					<div class="col-md-12 cliente derecha">
+						<div class="foto">
+							<img src="img/foto2.jpg" alt="">
+						</div>
+						<div class="review">
+							<p class="texto">“Muy buena experiencia y el servicio que me brindaron 100% recomendado”</p>
+							<p class="nombre">- Jhon Doe</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<footer>
+		<div class="direccion">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<h4 class="titulo">Contacto</h4>
+						<p class="calle">Nuestras oficinas administrativas estan localizadas detras <br />de la plaza Sambil, Calle Summer wells ezq. San Martin #12, Santo Domingo D.N</p>
+						<p class="telefono">829-453-4351</p>
+						<p class="correo">advensus@gmail.com</p>
+					</div>
+					<div class="col-md-4 logo">
+						<img src="img/logo.png" width="60px" alt="" class="logo">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+	</footer>
+    </body>
+</html>
