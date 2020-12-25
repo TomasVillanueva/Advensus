@@ -8,5 +8,4 @@ router.get('/', (req, res) => {
     res.render('contact.html');
   })
 
-  
   module.exports = router;
